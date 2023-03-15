@@ -1,0 +1,53 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+
+.advice-container {
+    background-color: var(--dark-grayish-blue);
+    height: auto;
+    border-radius: 25px;
+    padding: 30px;
+    max-width: 600px;
+    width: 100%;
+}
+
+.advice-id {
+    color: var(--neon-green);
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 12px;
+}
+
+#author {
+    color: var(--neon-green);
+    font-size: 18px;
+    margin-top: 50px;
+}
+
+.quote  {
+    p {    
+        font-size: 28px;
+        color: var(--light-cyan)
+
+    }
+}
+
+.dice-btn-container {
+    position: relative;
+    .dice-btn {
+        background-color: var(--neon-green);
+        width: fit-content;
+        padding: 15px;
+        border-radius: 50%;
+        cursor: pointer;
+        position: absolute;
+        bottom: -75px;
+        transition: 0.2s;
+    }
+}
+
+
+.dice-btn:hover {
+    box-shadow: 0 0 40px hsl(150, 100%, 66%);
+    transition: 0.2s;
+}
